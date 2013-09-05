@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C6A01B17D82E7300DD0893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A01A17D82E7300DD0893 /* UIKit.framework */; };
+		36C6A01D17D82E7300DD0893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A01C17D82E7300DD0893 /* Foundation.framework */; };
+		36C6A01F17D82E7300DD0893 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A01E17D82E7300DD0893 /* CoreGraphics.framework */; };
+		36C6A02517D82E7300DD0893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36C6A02317D82E7300DD0893 /* InfoPlist.strings */; };
+		36C6A02717D82E7300DD0893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C6A02617D82E7300DD0893 /* main.m */; };
+		36C6A02B17D82E7300DD0893 /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C6A02A17D82E7300DD0893 /* JWAppDelegate.m */; };
+		36C6A02D17D82E7300DD0893 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C6A02C17D82E7300DD0893 /* Default.png */; };
+		36C6A02F17D82E7300DD0893 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C6A02E17D82E7300DD0893 /* Default@2x.png */; };
+		36C6A03117D82E7300DD0893 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C6A03017D82E7300DD0893 /* Default-568h@2x.png */; };
+		36C6A03417D82E7300DD0893 /* JWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C6A03317D82E7300DD0893 /* JWViewController.m */; };
+		36C6A03717D82E7300DD0893 /* JWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36C6A03517D82E7300DD0893 /* JWViewController.xib */; };
+		36C6A03F17D82E7400DD0893 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A03E17D82E7400DD0893 /* SenTestingKit.framework */; };
+		36C6A04017D82E7400DD0893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A01A17D82E7300DD0893 /* UIKit.framework */; };
+		36C6A04117D82E7400DD0893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A01C17D82E7300DD0893 /* Foundation.framework */; };
+		36C6A04917D82E7400DD0893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36C6A04717D82E7400DD0893 /* InfoPlist.strings */; };
+		36C6A04C17D82E7400DD0893 /* Country_HuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C6A04B17D82E7400DD0893 /* Country_HuntTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C6A04217D82E7400DD0893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C6A00F17D82E7300DD0893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C6A01617D82E7300DD0893;
+			remoteInfo = "Country Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36C6A01717D82E7300DD0893 /* Country Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C6A01A17D82E7300DD0893 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36C6A01C17D82E7300DD0893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36C6A01E17D82E7300DD0893 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36C6A02217D82E7300DD0893 /* Country Hunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Country Hunt-Info.plist"; sourceTree = "<group>"; };
+		36C6A02417D82E7300DD0893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36C6A02617D82E7300DD0893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36C6A02817D82E7300DD0893 /* Country Hunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Country Hunt-Prefix.pch"; sourceTree = "<group>"; };
+		36C6A02917D82E7300DD0893 /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
+		36C6A02A17D82E7300DD0893 /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
+		36C6A02C17D82E7300DD0893 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		36C6A02E17D82E7300DD0893 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		36C6A03017D82E7300DD0893 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		36C6A03217D82E7300DD0893 /* JWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWViewController.h; sourceTree = "<group>"; };
+		36C6A03317D82E7300DD0893 /* JWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWViewController.m; sourceTree = "<group>"; };
+		36C6A03617D82E7300DD0893 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JWViewController.xib; sourceTree = "<group>"; };
+		36C6A03D17D82E7400DD0893 /* Country HuntTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Country HuntTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C6A03E17D82E7400DD0893 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		36C6A04617D82E7400DD0893 /* Country HuntTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Country HuntTests-Info.plist"; sourceTree = "<group>"; };
+		36C6A04817D82E7400DD0893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36C6A04A17D82E7400DD0893 /* Country_HuntTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Country_HuntTests.h; sourceTree = "<group>"; };
+		36C6A04B17D82E7400DD0893 /* Country_HuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country_HuntTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C6A01417D82E7300DD0893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6A01B17D82E7300DD0893 /* UIKit.framework in Frameworks */,
+				36C6A01D17D82E7300DD0893 /* Foundation.framework in Frameworks */,
+				36C6A01F17D82E7300DD0893 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C6A03917D82E7400DD0893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6A03F17D82E7400DD0893 /* SenTestingKit.framework in Frameworks */,
+				36C6A04017D82E7400DD0893 /* UIKit.framework in Frameworks */,
+				36C6A04117D82E7400DD0893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C6A00E17D82E7300DD0893 = {
+			isa = PBXGroup;
+			children = (
+				36C6A02017D82E7300DD0893 /* Country Hunt */,
+				36C6A04417D82E7400DD0893 /* Country HuntTests */,
+				36C6A01917D82E7300DD0893 /* Frameworks */,
+				36C6A01817D82E7300DD0893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C6A01817D82E7300DD0893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C6A01717D82E7300DD0893 /* Country Hunt.app */,
+				36C6A03D17D82E7400DD0893 /* Country HuntTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C6A01917D82E7300DD0893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C6A01A17D82E7300DD0893 /* UIKit.framework */,
+				36C6A01C17D82E7300DD0893 /* Foundation.framework */,
+				36C6A01E17D82E7300DD0893 /* CoreGraphics.framework */,
+				36C6A03E17D82E7400DD0893 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36C6A02017D82E7300DD0893 /* Country Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				36C6A02917D82E7300DD0893 /* JWAppDelegate.h */,
+				36C6A02A17D82E7300DD0893 /* JWAppDelegate.m */,
+				36C6A03217D82E7300DD0893 /* JWViewController.h */,
+				36C6A03317D82E7300DD0893 /* JWViewController.m */,
+				36C6A03517D82E7300DD0893 /* JWViewController.xib */,
+				36C6A02117D82E7300DD0893 /* Supporting Files */,
+			);
+			path = "Country Hunt";
+			sourceTree = "<group>";
+		};
+		36C6A02117D82E7300DD0893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C6A02217D82E7300DD0893 /* Country Hunt-Info.plist */,
+				36C6A02317D82E7300DD0893 /* InfoPlist.strings */,
+				36C6A02617D82E7300DD0893 /* main.m */,
+				36C6A02817D82E7300DD0893 /* Country Hunt-Prefix.pch */,
+				36C6A02C17D82E7300DD0893 /* Default.png */,
+				36C6A02E17D82E7300DD0893 /* Default@2x.png */,
+				36C6A03017D82E7300DD0893 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36C6A04417D82E7400DD0893 /* Country HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				36C6A04A17D82E7400DD0893 /* Country_HuntTests.h */,
+				36C6A04B17D82E7400DD0893 /* Country_HuntTests.m */,
+				36C6A04517D82E7400DD0893 /* Supporting Files */,
+			);
+			path = "Country HuntTests";
+			sourceTree = "<group>";
+		};
+		36C6A04517D82E7400DD0893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C6A04617D82E7400DD0893 /* Country HuntTests-Info.plist */,
+				36C6A04717D82E7400DD0893 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C6A01617D82E7300DD0893 /* Country Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C6A04F17D82E7400DD0893 /* Build configuration list for PBXNativeTarget "Country Hunt" */;
+			buildPhases = (
+				36C6A01317D82E7300DD0893 /* Sources */,
+				36C6A01417D82E7300DD0893 /* Frameworks */,
+				36C6A01517D82E7300DD0893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Country Hunt";
+			productName = "Country Hunt";
+			productReference = 36C6A01717D82E7300DD0893 /* Country Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C6A03C17D82E7400DD0893 /* Country HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C6A05217D82E7400DD0893 /* Build configuration list for PBXNativeTarget "Country HuntTests" */;
+			buildPhases = (
+				36C6A03817D82E7400DD0893 /* Sources */,
+				36C6A03917D82E7400DD0893 /* Frameworks */,
+				36C6A03A17D82E7400DD0893 /* Resources */,
+				36C6A03B17D82E7400DD0893 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C6A04317D82E7400DD0893 /* PBXTargetDependency */,
+			);
+			name = "Country HuntTests";
+			productName = "Country HuntTests";
+			productReference = 36C6A03D17D82E7400DD0893 /* Country HuntTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C6A00F17D82E7300DD0893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "University School";
+			};
+			buildConfigurationList = 36C6A01217D82E7300DD0893 /* Build configuration list for PBXProject "Country Hunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36C6A00E17D82E7300DD0893;
+			productRefGroup = 36C6A01817D82E7300DD0893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C6A01617D82E7300DD0893 /* Country Hunt */,
+				36C6A03C17D82E7400DD0893 /* Country HuntTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C6A01517D82E7300DD0893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6A02517D82E7300DD0893 /* InfoPlist.strings in Resources */,
+				36C6A02D17D82E7300DD0893 /* Default.png in Resources */,
+				36C6A02F17D82E7300DD0893 /* Default@2x.png in Resources */,
+				36C6A03117D82E7300DD0893 /* Default-568h@2x.png in Resources */,
+				36C6A03717D82E7300DD0893 /* JWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C6A03A17D82E7400DD0893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6A04917D82E7400DD0893 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36C6A03B17D82E7400DD0893 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C6A01317D82E7300DD0893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6A02717D82E7300DD0893 /* main.m in Sources */,
+				36C6A02B17D82E7300DD0893 /* JWAppDelegate.m in Sources */,
+				36C6A03417D82E7300DD0893 /* JWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C6A03817D82E7400DD0893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6A04C17D82E7400DD0893 /* Country_HuntTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C6A04317D82E7400DD0893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C6A01617D82E7300DD0893 /* Country Hunt */;
+			targetProxy = 36C6A04217D82E7400DD0893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36C6A02317D82E7300DD0893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C6A02417D82E7300DD0893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36C6A03517D82E7300DD0893 /* JWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C6A03617D82E7300DD0893 /* en */,
+			);
+			name = JWViewController.xib;
+			sourceTree = "<group>";
+		};
+		36C6A04717D82E7400DD0893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C6A04817D82E7400DD0893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36C6A04D17D82E7400DD0893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36C6A04E17D82E7400DD0893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36C6A05017D82E7400DD0893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Country Hunt/Country Hunt-Prefix.pch";
+				INFOPLIST_FILE = "Country Hunt/Country Hunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36C6A05117D82E7400DD0893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Country Hunt/Country Hunt-Prefix.pch";
+				INFOPLIST_FILE = "Country Hunt/Country Hunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36C6A05317D82E7400DD0893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Country Hunt.app/Country Hunt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Country Hunt/Country Hunt-Prefix.pch";
+				INFOPLIST_FILE = "Country HuntTests/Country HuntTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		36C6A05417D82E7400DD0893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Country Hunt.app/Country Hunt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Country Hunt/Country Hunt-Prefix.pch";
+				INFOPLIST_FILE = "Country HuntTests/Country HuntTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C6A01217D82E7300DD0893 /* Build configuration list for PBXProject "Country Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6A04D17D82E7400DD0893 /* Debug */,
+				36C6A04E17D82E7400DD0893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C6A04F17D82E7400DD0893 /* Build configuration list for PBXNativeTarget "Country Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6A05017D82E7400DD0893 /* Debug */,
+				36C6A05117D82E7400DD0893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36C6A05217D82E7400DD0893 /* Build configuration list for PBXNativeTarget "Country HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6A05317D82E7400DD0893 /* Debug */,
+				36C6A05417D82E7400DD0893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C6A00F17D82E7300DD0893 /* Project object */;
+}
