@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface JWViewController : UIViewController
+#import "JWGeoGame.h"
+@interface JWViewController : UIViewController <UIAlertViewDelegate,UITextFieldDelegate,UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate>{
+    JWGeoGame *game;
+    NSMutableArray *guesses;
+    NSMutableArray *results;
+    IBOutlet UITableView *table;
+    IBOutlet UITextField *text1;
+    IBOutlet UIBarButtonItem *hint;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+-(BOOL)textFieldShouldReturn:(UITextField *)textField;
+-(IBAction)giveUp:(id)sender;
+-(IBAction)newGame:(id)sender;
+-(IBAction)hint:(id)sender;
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
+-(void)noSuchCountry:(NSString*)country;
 
 @end
